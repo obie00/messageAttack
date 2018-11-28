@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+p {
+    color: red;
+}
+
+#titleHeading{
+    background-color: green;
+    margin: 0px;
+    padding: 20px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    
+}
+#initial{
+    display: none;
+}
+#submit{
+    display: none;
+}
+
+#mainHub{
+    background-color: black;
+    height: 400px;
+    margin: 0px;
+    padding: 30px;
+}
+
+#noiseCanvas{
+    display: none;
+    width: 700px;
+    height: 400px;
+    background-color: #505167;
+    border:3px solid green;
+    margin: 0 auto;
+}
+
+#menu{
+    padding: 30px;
+}
+
+#menuTitle{
+    border-radius: 25px;
+    background-color: FD022F;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.menuItems{
+    background-color: rgb(128, 0, 0);
+    color: 	white;/*#8A33FF;*/
+    padding: 30px 90px;
+    margin: 30px auto;
+    border-radius: 25px;
+    border-style: none;
+    
+    cursor: pointer;
+    display: block;
+    
+    
+    
+}
+
+.menuItems:hover {
+    background-color: #3e8e41;
+}
+
+.codeTypeItems{
+    background-color: rgb(128, 0, 0);
+    color: 	white;/*#8A33FF;*/
+    padding: 30px 90px;
+    margin: 30px auto;
+    border-radius: 25px;
+    border-style: none;
+    
+    cursor: pointer;
+    display: block;
+    
+    /*float: left;
+    width: 50%;*/
+    
+    
+    
+}
+
+.codeTypeItems:hover {
+    background-color: #3e8e41;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.column:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#mainMenu{
+    /*display: none;*/
+}
+
+#codeTypes{
+    display: none;
+}
+#codeTypes:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#matrices{
+    display: none;
+}
+#repetitionMatrix{
+    display: block;
+}
+.m33column{
+    display: block;
+    padding: 0px 50px;
+}
+.m33column:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.m33{
+    background-color: #666750;
+    color: 	white;/*#8A33FF;*/
+    padding: 30px 90px;
+    margin: 30px auto;
+    border-radius: 25px;
+    border-style: none;
+    
+    cursor: pointer;
+    width: 24%;
+    /*float: left;
+    width: 50%;*/
+    
+    font-size: 35px;
+}
+
+/* Prevent double borders */
+/*.menuItems:not(:last-child) {
+    border-bottom: none; 
+}*/
