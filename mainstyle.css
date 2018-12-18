@@ -118,12 +118,12 @@ p {
 #matrices{
     display: none;
 }
-#repetitionMatrix{
+#repititionMatrix{
     display: block;
 }
 .m33column{
     display: block;
-    padding: 0px 50px;
+    padding: 0% 3.93%;
 }
 .m33column:after{
     content: "";
@@ -133,17 +133,17 @@ p {
 .m33{
     background-color: #666750;
     color: 	white;/*#8A33FF;*/
-    padding: 30px 90px;
-    margin: 30px auto;
+    padding: 2% 5%;
+    margin: 1.5% auto;
     border-radius: 25px;
     border-style: none;
     
     cursor: pointer;
-    width: 24%;
+    width: 13.6%;
     /*float: left;
     width: 50%;*/
     
-    font-size: 35px;
+    font-size: 200%;
 }
 
 /* Prevent double borders */

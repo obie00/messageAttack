@@ -1,3 +1,23 @@
+var counter = 0;
+var button  = document.getElementById("r" + counter);
+
+while ( button )
+{
+   button.addEventListener("click", function(event){
+       var x = event.target.innerHTML;
+       //var x = button.innerHTML;
+       if(x==0){
+           x = 1;
+       }else{
+           x = 0;
+       }
+       event.target.innerHTML = x;
+       //document.getElementById("r0").innerHTML=x;
+   });
+   button  = document.getElementById( "r" + ( ++counter ));
+}
+
+/*
 document.getElementById("r0").onclick = function(){
     var x = document.getElementById("r0").innerHTML;
     if(x==0){
@@ -142,3 +162,4 @@ document.getElementById("r15").onclick = function(){
     }
     document.getElementById("r15").innerHTML=x;
 }
+*/
