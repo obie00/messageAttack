@@ -90,8 +90,8 @@ var player = {
     x : 0,
     y : canvas.height/2,
     characterSize : 5,
-    dx : 0.5,
-    dy : 0.5,
+    dx : 2,//0.5
+    dy : 2,//0.5
     getMovement : function(){
         if(this.movement.left){
             if(this.x > this.dx){

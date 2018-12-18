@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Message Attack</title>
+        <link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'>
+        <link rel="stylesheet" href="mainstyle.css">
+        
+    </head>
+    <body>
+        <div id = "titleHeading">
+            <button id = "initial">start</button>
+            <h id = "reloadTitle" style="font-family: 'Rakkas'">Message Attack</h>
+            <button id = "submit">submit</button>
+        </div>
+        <div id = "mainHub">
+            <div id = "menu">
+                <div id = "mainMenu">
+                    <li id = "menuTitle">Main Menu</li>
+                    <button class = "menuItems" id = "newGame">NEW GAME</button>
+                </div>
+                <div id = "codeTypes">
+                    <li id = "menuTitle">Select Code Type</li>
+                    <div class = "column">
+                        <button class = "codeTypeItems" id = "Repitition">Repitition Code</button>
+                    </div>
+                    <div class = "column">
+                    </div>
+                </div>
+            </div>
+            <canvas id="noiseCanvas"> </canvas>
+            <div id = "matrices">
+                <div id = "repetitionMatrix">
+                    <div class = "m33column">
+                        <button class = "m33" id = "r0">0</button>
+                        <button class = "m33" id = "r1">1</button>
+                        <button class = "m33" id = "r2">2</button>
+                        <button class = "m33" id = "r3">3</button>
+                        <button class = "m33" id = "r4">3</button>
+                        <button class = "m33" id = "r5">3</button>
+                        <button class = "m33" id = "r6">3</button>
+                    </div>
+                    <div class = "m33column">
+                        <button class = "m33" id = "r4">4</button>
+                        <button class = "m33" id = "r5">4</button>
+                        <button class = "m33" id = "r6">5</button>
+                        <button class = "m33" id = "r7">2</button>
+                    </div>
+                    <div class = "m33column">
+                        <button class = "m33" id = "r8">6</button>
+                        <button class = "m33" id = "r9">7</button>
+                        <button class = "m33" id = "r10">8</button>
+                        <button class = "m33" id = "r11">2</button>
+                    </div>
+                    <div class = "m33column">
+                        <button class = "m33" id = "r12">6</button>
+                        <button class = "m33" id = "r13">7</button>
+                        <button class = "m33" id = "r14">8</button>
+                        <button class = "m33" id = "r15">2</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="noise.js"></script>
+        <script type="text/javascript" src="menu.js"></script>
+        <script type="text/javascript" src="ecode.js"></script>
+        <script type="text/javascript" src="changematrix.js"></script>
+        
+    </body>
+</html>
